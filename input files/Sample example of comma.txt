@@ -1,0 +1,3 @@
+Reddy , Rohith , Male , Blue ,12/11/1987
+Abc, Sujitha, female, white,10/13/1990
+Bbc, Suji, female, white,10/13/1990

@@ -1,0 +1,6 @@
+G:\GIT\CodeAssignment\CAConsole\CALibrary\bin\Debug\CALibrary.dll
+G:\GIT\CodeAssignment\CAConsole\CALibrary\bin\Debug\CALibrary.pdb
+G:\GIT\CodeAssignment\CAConsole\CALibrary\obj\Debug\CALibrary.csproj.CoreCompileInputs.cache
+G:\GIT\CodeAssignment\CAConsole\CALibrary\obj\Debug\CALibrary.dll
+G:\GIT\CodeAssignment\CAConsole\CALibrary\obj\Debug\CALibrary.pdb
+G:\GIT\CodeAssignment\CAConsole\CALibrary\obj\Debug\CALibrary.csprojResolveAssemblyReference.cache

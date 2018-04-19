@@ -1,0 +1,13 @@
+G:\GIT\CodeAssignment\CAConsole\CAConsole\bin\Debug\netcoreapp2.0\CAConsole.deps.json
+G:\GIT\CodeAssignment\CAConsole\CAConsole\bin\Debug\netcoreapp2.0\CAConsole.runtimeconfig.json
+G:\GIT\CodeAssignment\CAConsole\CAConsole\bin\Debug\netcoreapp2.0\CAConsole.runtimeconfig.dev.json
+G:\GIT\CodeAssignment\CAConsole\CAConsole\bin\Debug\netcoreapp2.0\CAConsole.dll
+G:\GIT\CodeAssignment\CAConsole\CAConsole\bin\Debug\netcoreapp2.0\CAConsole.pdb
+G:\GIT\CodeAssignment\CAConsole\CAConsole\bin\Debug\netcoreapp2.0\CALibrary.dll
+G:\GIT\CodeAssignment\CAConsole\CAConsole\bin\Debug\netcoreapp2.0\CALibrary.pdb
+G:\GIT\CodeAssignment\CAConsole\CAConsole\obj\Debug\netcoreapp2.0\CAConsole.csprojResolveAssemblyReference.cache
+G:\GIT\CodeAssignment\CAConsole\CAConsole\obj\Debug\netcoreapp2.0\CAConsole.csproj.CoreCompileInputs.cache
+G:\GIT\CodeAssignment\CAConsole\CAConsole\obj\Debug\netcoreapp2.0\CAConsole.AssemblyInfoInputs.cache
+G:\GIT\CodeAssignment\CAConsole\CAConsole\obj\Debug\netcoreapp2.0\CAConsole.AssemblyInfo.cs
+G:\GIT\CodeAssignment\CAConsole\CAConsole\obj\Debug\netcoreapp2.0\CAConsole.dll
+G:\GIT\CodeAssignment\CAConsole\CAConsole\obj\Debug\netcoreapp2.0\CAConsole.pdb

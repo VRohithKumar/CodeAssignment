@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CAWebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:CAWebAPI.Controllers.FileHadlerController">
+            <summary>
+            Used to manage File operations
+            </summary>
+        </member>
+        <member name="F:CAWebAPI.Controllers.FileHadlerController._personDataCacheModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CAWebAPI.Controllers.FileHadlerController.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:CAWebAPI.Controllers.FileHadlerController.SavePersonRecord(CAWebAPI.Models.InputRecord)">
+             PUT : api/records/person
+            <summary>
+            Save Person model wizard data
+            </summary>
+            <param name="inputRequest">inputRequest object</param>
+            <returns>Success Or Fail Message</returns>
+        </member>
+        <member name="M:CAWebAPI.Controllers.FileHadlerController.GetDashboardBudgets(System.String)">
+            <summary>
+            Get Person details
+            </summary>
+            <param name="sortby">sortby</param>
+            <returns>List of persons by specified sort order</returns>
+        </member>
+        <member name="T:CAWebAPI.Models.ApiResponse`1">
+            <summary>
+            Generic API response object
+            </summary>
+            <typeparam name="T">Result type</typeparam>
+        </member>
+        <member name="P:CAWebAPI.Models.ApiResponse`1.MessageId">
+            <summary>
+            Response Message ID 
+            </summary>
+        </member>
+        <member name="P:CAWebAPI.Models.ApiResponse`1.MessageText">
+            <summary>
+            Response Message Text 
+            </summary>
+        </member>
+        <member name="P:CAWebAPI.Models.ApiResponse`1.Records">
+            <summary>
+            Actual Records (with paging and sorting applied if applicable)
+            </summary>
+        </member>
+        <member name="P:CAWebAPI.Models.ApiResponse`1.StatusCode">
+            <summary>
+            Http Status Code for the response
+            </summary>
+        </member>
+        <member name="M:CAWebAPI.Models.ApiResponse`1.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:CAWebAPI.Models.ApiResponse">
+            <summary>
+            Generic API response object for messages
+            </summary>
+        </member>
+        <member name="P:CAWebAPI.Models.ApiResponse.MessageId">
+            <summary>
+            Response Message ID 
+            </summary>
+        </member>
+        <member name="P:CAWebAPI.Models.ApiResponse.MessageText">
+            <summary>
+            Response Message Text 
+            </summary>
+        </member>
+        <member name="P:CAWebAPI.Models.ApiResponse.StatusCode">
+            <summary>
+            Http Status Code for the response
+            </summary>
+        </member>
+        <member name="M:CAWebAPI.Models.ApiResponse.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:CAWebAPI.Models.ApiResponse.GetExample">
+            <summary>
+            Used to get an example of the API Response object with test data
+            </summary>
+            <returns>Api Response with test data</returns>
+        </member>
+        <member name="T:CAWebAPI.Models.SortList">
+            <summary>
+            Enum sort List
+            </summary>
+        </member>
+        <member name="F:CAWebAPI.Models.SortList.gender">
+            <summary>
+            enum Gender
+            </summary>
+        </member>
+        <member name="F:CAWebAPI.Models.SortList.birthdate">
+            <summary>
+            enum birtdate
+            </summary>
+        </member>
+        <member name="F:CAWebAPI.Models.SortList.name">
+            <summary>
+            enum last name
+            </summary>
+        </member>
+        <member name="T:CAWebAPI.Models.PersonDataCacheModel">
+            <summary>
+            Used to Get PersonDataCacheModel
+            </summary>
+        </member>
+        <member name="P:CAWebAPI.Models.PersonDataCacheModel.Persons">
+            <summary>
+            person list
+            </summary>
+        </member>
+        <member name="M:CAWebAPI.Models.PersonDataCacheModel.GetInstance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CAWebAPI.Services.DataParser">
+            <summary>
+            Data parser class which does operations with data
+            </summary>
+        </member>
+        <member name="M:CAWebAPI.Services.DataParser.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CAWebAPI.Services.DataParser.GetPersonDetails(System.String,System.String)">
+            <summary>
+            Get person details 
+            </summary>
+            <param name="format"></param>
+            <param name="recordLine"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CAWebAPI.Services.DataParser.GetPersonListBySortOption(System.Collections.Generic.IList{CALibrary.BusinessObject.Person},System.String)">
+            <summary>
+            get person by sort order
+            </summary>
+            <param name="person"></param>
+            <param name="sortBy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CAWebAPI.Services.DataParser.GetPersonListWithSorting(System.Collections.Generic.IList{CALibrary.BusinessObject.Person},System.String)">
+            <summary>
+            private method gets person by sort order
+            </summary>
+            <param name="person"></param>
+            <param name="sortBy"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
